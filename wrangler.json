@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "tsarka",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "f0859743-357e-455e-aed5-5342b74ae149",
+			"database_name": "ziriab"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
