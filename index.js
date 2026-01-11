@@ -20,7 +20,7 @@ async function rebuildDatabase(request, env) {
   }
 
   try {
-    await env.ziriab.prepare(REBUILD_SQL).run();
+    await env.db.prepare(REBUILD_SQL).run();
 
     return new Response(
       JSON.stringify(
